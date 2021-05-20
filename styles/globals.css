@@ -14,3 +14,64 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Verilive style */
+.vrbtn {
+  margin: 150px auto;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 8px 32px;
+  margin-bottom: 6px;
+  outline: none;
+  background: transparent;
+  border-radius: 4px;
+  transition: .2s ease-in-out;
+}
+.vrbtn:active {
+  opacity: 0.9;
+}
+#start {
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+}
+#start:hover {
+  background: #4CAF50;
+  color: #fff;
+}
+#id_verilive {
+  margin: 150px 0!important;
+}
+#stop {
+  border: 2px solid #727272;
+  color: #727272;
+}
+#stop:hover {
+  background: #727272;
+  color: #fff;
+}
+.veridoc {
+  padding-top: 150px;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
